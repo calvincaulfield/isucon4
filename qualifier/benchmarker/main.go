@@ -3,10 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/codegangsta/cli"
-	"github.com/isucon/isucon4/qualifier/benchmarker/ip"
-	"github.com/isucon/isucon4/qualifier/benchmarker/user"
-	"github.com/isucon/isucon4/qualifier/benchmarker/worker"
 	"io/ioutil"
 	"log"
 	"math"
@@ -15,6 +11,11 @@ import (
 	"os/exec"
 	"runtime"
 	"time"
+
+	"github.com/isucon/isucon4/qualifier/benchmarker/ip"
+	"github.com/isucon/isucon4/qualifier/benchmarker/user"
+	"github.com/isucon/isucon4/qualifier/benchmarker/worker"
+	"github.com/urfave/cli"
 )
 
 var (
